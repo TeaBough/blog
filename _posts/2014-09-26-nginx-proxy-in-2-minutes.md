@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Set up nginx in 2 minutes for Jekyll on Archlinux 
+tags: [nginx]
 ---
 
 This is a reminder. The purpose here is to simply tell nginx to redirect requests coming to the server to the port 4000 which corresponds to Jekyll.

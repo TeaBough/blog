@@ -1,22 +1,55 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+# Site wide configuration
 
-# Permalinks
-permalink:        pretty
-
-# Setup
 title:            Teabough's blog
-tagline:          Yet another personnal blog about computer science ... 
-url:              http://getpoole.com
-paginate:         1
-baseurl:          /
-author:
-  name:           TeaBough
-  url:            https://twitter.com/teaBough
-  email:          thibault.vigouroux@gmail.com
+locale:           en_US
+url:              http://localhost:4000
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/TeaBough
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name:
+  avatar:
+  bio:
+  email:
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

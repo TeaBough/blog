@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Play 2 with heroku PostgreSQL DB and Slick
+tags: [play2,heroku,slick,postgresql]
 ---
 
 I have struggled almost a day in order to be able to connect to my fresh PostgreSQL DB hosted on Heroku with my Play!2 application. I kept having those two errors :

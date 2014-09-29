@@ -1,6 +1,8 @@
 ---
 layout: post
 title: I tried colemak for one month
+tags: [colemak, productivity]
+comments: true
 ---
 
 
