@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Ruby Journey &#58; day 2
-excerpt: "Variables, modules and the lib folder"
+excerpt: "Classes, objects, IO, main ruby commands"
 modified: 2014-09-29
 tags: [ruby, beginner]
 comments: true
