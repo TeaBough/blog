@@ -18,7 +18,7 @@ end
 
 desc "Deploys the current version to the server."
 task :deploy => :environment do
-  queue 'export PATH=$PATH:/usr/local/rbenv/bin:/usr/local/rbenv/shims'
+  queue 'export PATH=/usr/local/rbenv/bin:/usr/local/rbenv/shims:$PATH'
   deploy do
     invoke :'git:clone'
     invoke :'bundle:install'
