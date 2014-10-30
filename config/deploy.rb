@@ -5,14 +5,12 @@ require 'mina/rbenv'
 require 'mina/whenever'
 
 set :rbenv_path, '/usr/local/rbenv/'
-set :domain, '127.0.0.1'
-set :port, '2222'
+set :domain, '176.31.120.224'
+set :port, '22'
 set :user, 'blog'
 set :deploy_to, '/var/www/blog'
 set :repository, 'git@github.com:TeaBough/blog.git'
 set :branch, 'master'
-# nginx serve directory
-set :server_dir, '/var/www/site'
 
 task :environment do
   invoke :'rbenv:load'
