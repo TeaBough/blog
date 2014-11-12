@@ -4,7 +4,7 @@ title: 10 amazing thoughts from the book Whatcha Gonna Do with That Duck?
 tags: [book, personal development]
 ---
 
-[Whatcha Gonna Do with That Duck?](http://www.amazon.com/Whatcha-Gonna-That-Duck-Provocations/dp/1591846099) is a book written by Seth Godin a famous marketer who have worked at Yahoo and have writte a lot of books on the subject. It's a 600 pages book filled with blog posts he wrote from 2006 to 2012. There was so many interesting ideas in it that summarizing it in one article is impossible. That's why I'll just share my top 10.
+[Whatcha Gonna Do with That Duck?](http://www.amazon.com/Whatcha-Gonna-That-Duck-Provocations/dp/1591846099) is a book written by Seth Godin a famous marketer who have worked at Yahoo and have written a lot of books on the subject. It's a 600 pages book filled with blog posts he wrote from 2006 to 2012. There was so many interesting ideas in it that summarizing it in one article is impossible. That's why I'll just share my top 10.
 
 ## 1 - It's doing nothing that kills you
 
