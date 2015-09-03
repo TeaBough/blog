@@ -32,7 +32,7 @@ We now need to specify fail2ban how to parse the nginx access.log and identify t
 failregex = <HOST>.*
 {% endhighlight %}
 
-The 2 last lines we've added in `jail.conf` contains the action we take when we detect an intrusion. `iptables-multipost` is a default configuration of fail2ban that prevents the ip from requesting our server using http/https.`mailjet` is rule that warns us by email when somebody gets banned, we need to add `mailjet.conf` in `/etc/fail2ban/jail.conf` :
+The 2 last lines we've added in `jail.conf` contains the action we take when we detect an intrusion. `iptables-multipost` is a default configuration of fail2ban that prevents the ip from requesting our server using http/https.`mailjet` is rule that warns us by email when somebody gets banned, we need to add `mailjet.conf` in `/etc/fail2ban/action.d` :
 
 
 {% highlight INI %}
